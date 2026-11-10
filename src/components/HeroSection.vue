@@ -18,14 +18,23 @@ import ActivityCard from './ActivityCard.vue'
           Границы существуют,<br />
           чтобы их преодолевать.
         </p>
+        <p class="development-note">Сайт находится в разработке</p>
       </div>
 
       <div class="chips">
-        <a class="chip" :href="profile.github" target="_blank" rel="noopener"><BrandIcon name="github" :size="16" /> github</a>
-        <a class="chip" :href="profile.discord" target="_blank" rel="noopener"><BrandIcon name="discord" :size="16" /> discord</a>
-        <a class="chip" :href="profile.telegram" target="_blank" rel="noopener"><BrandIcon name="telegram" :size="16" /> telegram</a>
+        <a class="chip" :href="profile.github" target="_blank" rel="noopener">
+          <BrandIcon name="github" :size="16" /> github
+        </a>
+        <a class="chip" :href="profile.discord" target="_blank" rel="noopener">
+          <BrandIcon name="discord" :size="16" /> discord
+        </a>
+        <a class="chip" :href="profile.telegram" target="_blank" rel="noopener">
+          <BrandIcon name="telegram" :size="16" /> telegram
+        </a>
         <span class="vline" />
-        <button class="scroll" type="button" @click="smoothTo('works')">scroll down <Icon name="down" /></button>
+        <button class="scroll" type="button" @click="smoothTo('works')">scroll down
+          <Icon name="down" />
+        </button>
       </div>
     </div>
     <ActivityCard />

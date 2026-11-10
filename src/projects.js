@@ -29,7 +29,7 @@ export const projects = [
     name: 'boundless.dev',
     desc: 'Мой сайт-визитка',
     details: '',
-    tags: ['Vue 3', 'TailwindCSS'],
+    tags: ['Vue 3', 'TailwindCSS', 'Vite', 'В разработке'],
     image: 'img/angel.jpg',
     url: 'https://boundless-dev.vercel.app/',
     repo: 'https://github.com/bounddless/boundless.dev',
