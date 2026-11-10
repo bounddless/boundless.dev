@@ -18,7 +18,7 @@ export const heroBackground = ''
 // 2) ключ придёт на почту — вставь его сюда.
 // Пока ключа нет, форма откроет почтовый клиент (mailto).
 export const contactForm = {
-  accessKey: '',
+  accessKey: 'bfdf7b08-1ff7-4da8-b94e-09ef1f217c4e',
 }
 
 // Живые карточки Spotify/Discord:
